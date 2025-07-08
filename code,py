@@ -1,0 +1,10 @@
+# Get user input
+text = input("Enter a sentence or paragraph: ")
+
+# Count characters and words
+character_count = len(text)
+word_count = len(text.split())
+
+# Display results without using f-strings
+print("Total characters:", character_count)
+print("Total words:", word_count)
